@@ -221,6 +221,7 @@ def regul():
 
     os.system('sort not_sort.txt | uniq > sort.txt')
     os.system('rm not_sort.txt')
+    os.system('rm new_proxy.txt')
 
 def main():
 	while True:
